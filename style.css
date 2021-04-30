@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(77, 190, 190);
+}
+.color-pink {
+    color: rgb(21, 0, 214);
+}
+h1::after {
+    content: ' Nail Sunay ' ;
+    background-color: rgb(255, 255, 255);
+}
+h1::before {
+    content: "NS";
+    font-size: 50px;
+}
+::selection {
+    background: rgb(187, 16, 16);
+}
+
+input::placeholder {
+    color: rgb(199, 12, 12);
+}
